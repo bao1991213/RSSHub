@@ -1299,7 +1299,7 @@ JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.c
 |    | news | report | m_review | t_review | new_review | recom |
 
 </Route>
-sssssssssss
+
 ### 今日播出
 
 <Route author="bao1991213" example="/yyets/today" path="/yyets/today" radar="1" rssbud="1"/>
