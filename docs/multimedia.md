@@ -1182,6 +1182,10 @@ JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.c
 
 <Route author="imgss" example="/dytt" path="/dytt" supportBT="1"/>
 
+## 抖音
+
+见 [#抖音](/social-media.html#dou-yin)
+
 ## 法国国际广播电台
 
 ### 滚动新闻
@@ -1295,7 +1299,7 @@ JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.c
 |    | news | report | m_review | t_review | new_review | recom |
 
 </Route>
-
+sssssssssss
 ### 今日播出
 
 <Route author="bao1991213" example="/yyets/today" path="/yyets/today" radar="1" rssbud="1"/>
@@ -1457,6 +1461,12 @@ Tiny Tiny RSS 会给所有 iframe 元素添加 `sandbox="allow-scripts"` 属性�
 
 <Route author="xyqfer Fatpandac" example="/youku/channel/UNTg3MTM3OTcy" path="/youku/channel/:channelId/:embed?" :paramsDesc="['频道 id', '默认为开启内嵌视频, 任意值为关闭']"/>
 
+## 云听
+
+### 电台节目
+
+<Route author="kt286 nczitzk" example="/radio/1552135" path="/radio/:id" :paramsDesc="['节目ID，可在对应专辑页面的 URL 中找到']" supportPodcast="1"/>
+
 ## 中国高清网
 
 ### 电影
@@ -1466,12 +1476,6 @@ Tiny Tiny RSS 会给所有 iframe 元素添加 `sandbox="allow-scripts"` 属性�
 | 全部 | 蓝光     | 1080P | 720P | 3D | WEB-DL |
 | -- | ------ | ----- | ---- | -- | ------ |
 | 留空 | bluray | 1080p | 720p | 3d | webdl  |
-
-## 中国广播
-
-### 电台节目
-
-<Route author="kt286" example="/radio/2/520767" path="/radio/:channelname/:name" :paramsDesc="['频道ID, 可在对应专辑页面的 URL 中找到','节目ID，可在对应专辑页面的 URL 中找到']" supportPodcast="1"/>
 
 ## 注视影视
 
